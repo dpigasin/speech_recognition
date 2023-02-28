@@ -1,13 +1,9 @@
-import os
 import re
 from argparse import ArgumentParser
 from time import perf_counter
 
 import numpy as np
 from openvino.runtime import Core
-
-if os.name == 'nt':
-    os.environ['PATH'] += os.pathsep + 'ffmpeg'
 from pydub import AudioSegment
 
 from Wav2Vec import Wav2Vec

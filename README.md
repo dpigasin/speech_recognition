@@ -18,7 +18,7 @@ options:
   -m MODEL, --model MODEL
                         Optional. Path to an .xml file with a trained model.
   -d DEVICE, --device DEVICE
-                        Optional. Specify the target device to infer on, for example: CPU, GPU, HDDL, MYRIAD or HETERO.
+                        Optional. Specify the target device to infer on: CPU, GPU, HDDL, MYRIAD or HETERO.
 ```
 
 ## Examples
