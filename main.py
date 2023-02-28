@@ -26,7 +26,7 @@ def parse_args():
     parser = ArgumentParser()
     parser.add_argument('-i', '--input', required=True,
                         help='Required. Path to an audio .wav file.')
-    parser.add_argument('-m', '--model', default='models/public/wav2vec2-base/FP32/wav2vec2-base.xml',
+    parser.add_argument('-m', '--model', default='models/public/wav2vec2-base/FP16/wav2vec2-base.xml',
                         help='Optional. Path to an .xml file with a trained model.')
     parser.add_argument('-d', '--device', default='CPU',
                         help='Optional. Specify the target device to infer on: CPU, GPU, HDDL, MYRIAD or HETERO.')
